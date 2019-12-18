@@ -8,17 +8,18 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-java@v1
       with:
-        java-version: '12.x'
+        java-version: '8.x'
     - uses: subosito/flutter-action@v1
       with:
         flutter-version: '1.7.8+hotfix.4'
+    - run: flutter create .
+    - run: flutter build apk
     - run: flutter channel dev
     - run: flutter upgrade
     - run: flutter config --enable-web
     - run: flutter pub get
     - run: flutter create .
     - run: flutter build web
-    - run: flutter build apk
     - run: zip -r builds.zip build/
     - name: Create a Release ZIP
       uses: ncipollo/release-action@v1
