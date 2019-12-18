@@ -27,7 +27,7 @@ PS, if you face any issues anywhere please feel free to open up a thread. I woul
 None as of now. Feel free to open an issue if any!
 
 ## Wanna Contribute ?
-Aww, great. Just go through [CONTRIBUTING.MD](https://github.com/dewanshrawat15/flutter_interact/blob/master/CONTRIBUTING.md) once!
+Aww, great. Just go through [CONTRIBUTING.MD](https://github.com/dscbvppune/flutter_interact/blob/master/CONTRIBUTING.md) once!
 
 # License
 > The MIT License
